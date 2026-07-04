@@ -1,22 +1,30 @@
-# 🌐 Small Office Network
+# 🌐 Small Office Network using Cisco Packet Tracer
 
-## 📌 Objective
+## 📖 Project Overview
 
-Design and configure a small office network using Cisco Packet Tracer.
+This project demonstrates the design and implementation of a Small Office Network using Cisco Packet Tracer.
+
+The network consists of two departments (HR and Sales) connected through routers and switches. DHCP is used for automatic IP address allocation, and routing enables communication between different networks.
+
+---
+
+## 🎯 Objectives
+
+- Design a small office network
+- Configure routers and switches
+- Configure DHCP
+- Enable communication between departments
+- Verify network connectivity
 
 ---
 
 ## 🖥️ Network Topology
 
-- 1 Router
-- 2 Switches
-- 20 PCs
-- HR Department
-- Sales Department
+![Network Topology](topology%201.png)
 
 ---
 
-## ⚙️ Technologies Used
+## 🛠️ Technologies Used
 
 - Cisco Packet Tracer
 - Cisco IOS CLI
@@ -27,26 +35,81 @@ Design and configure a small office network using Cisco Packet Tracer.
 
 ---
 
-## 🛠️ Configuration
+## 📦 Devices Used
 
-- Configured router interfaces
-- Configured switch interfaces
-- Configured DHCP
-- Assigned IP addresses
-- Verified connectivity
-
----
-
-## ✅ Verification
-
-- show ip interface brief
-- Successful ping between devices
+| Device | Quantity |
+|---------|----------|
+| Cisco 2911 Router | 2 |
+| Cisco 2960 Switch | 2 |
+| PCs | 20 |
 
 ---
 
-## 📚 What I Learned
+## 🌍 IP Addressing
 
-- IP Addressing
-- DHCP Configuration
+| Network | IP Address |
+|----------|------------|
+| HR Department | 192.168.10.0/24 |
+| Sales Department | 192.168.20.0/24 |
+| WAN Link | 200.1.1.0/30 |
+
+---
+
+## ⚙️ Features Implemented
+
+- ✅ Router Configuration
+- ✅ Switch Configuration
+- ✅ DHCP Configuration
+- ✅ Static Routing
+- ✅ End-to-End Connectivity
+- ✅ Inter-network Communication
+
+---
+
+## 📸 Verification
+
+The following screenshots are available inside the **screenshots** folder:
+
+- DHCP Binding
+- IP Interface Brief
+- Routing Table
+- Successful Ping Test
+
+---
+
+## 📂 Project Structure
+
+```
+01-Small-Office-Network/
+│
+├── README.md
+├── small office network.pkt
+├── topology 1.png
+└── screenshots
+    ├── dhcp-binding.png
+    ├── ping-test.png
+    ├── show-ip-interface-brief.png
+    └── show-ip-route.png
+```
+
+---
+
+## 📚 Skills Demonstrated
+
+- IPv4 Addressing
 - Router Configuration
-- Basic Network Troubleshooting
+- Switch Configuration
+- DHCP
+- Static Routing
+- Network Troubleshooting
+- Cisco IOS CLI
+
+---
+
+## 👩‍💻 Author
+
+**Prachi Jogdand**
+
+Final Year BE Student (Artificial Intelligence & Machine Learning)
+
+Aspiring Network Engineer | CCNA Certified | Cybersecurity Enthusiast
