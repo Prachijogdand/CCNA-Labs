@@ -1,0 +1,52 @@
+# 🌐 Small Office Network
+
+## 📌 Objective
+
+Design and configure a small office network using Cisco Packet Tracer.
+
+---
+
+## 🖥️ Network Topology
+
+- 1 Router
+- 2 Switches
+- 20 PCs
+- HR Department
+- Sales Department
+
+---
+
+## ⚙️ Technologies Used
+
+- Cisco Packet Tracer
+- Cisco IOS CLI
+- Routing
+- Switching
+- DHCP
+- IPv4 Addressing
+
+---
+
+## 🛠️ Configuration
+
+- Configured router interfaces
+- Configured switch interfaces
+- Configured DHCP
+- Assigned IP addresses
+- Verified connectivity
+
+---
+
+## ✅ Verification
+
+- show ip interface brief
+- Successful ping between devices
+
+---
+
+## 📚 What I Learned
+
+- IP Addressing
+- DHCP Configuration
+- Router Configuration
+- Basic Network Troubleshooting
