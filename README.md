@@ -2,7 +2,7 @@
 
 Welcome to my **CCNA Hands-on Labs** repository.
 
-This repository showcases the networking labs I have built while learning CCNA using **Cisco Packet Tracer**. Each project demonstrates practical networking concepts through real configurations, verification, and troubleshooting.
+This repository showcases the networking labs I have built while learning **CCNA** using **Cisco Packet Tracer**. Each project demonstrates practical networking concepts through real device configurations, verification commands, and troubleshooting.
 
 ---
 
@@ -11,7 +11,7 @@ This repository showcases the networking labs I have built while learning CCNA u
 - Strengthen networking fundamentals through hands-on practice.
 - Build real-world network topologies.
 - Document every lab professionally.
-- Develop a portfolio for networking and cybersecurity roles.
+- Develop a networking portfolio for internships and job opportunities.
 
 ---
 
@@ -20,14 +20,15 @@ This repository showcases the networking labs I have built while learning CCNA u
 | No. | Project | Status |
 |-----|---------|--------|
 | 01 | Small Office Network | ✅ Completed |
+| 02 | VLAN Configuration | ✅ Completed |
+| 03 | Inter-VLAN Routing (Router-on-a-Stick) | ✅ Completed |
 
 ---
 
 ## 🚀 Upcoming Projects
 
-- 🔜 VLAN Configuration
-- 🔜 Inter-VLAN Routing (Router-on-a-Stick)
 - 🔜 Static Routing
+- 🔜 Dynamic Routing (RIP)
 - 🔜 OSPF
 - 🔜 Access Control Lists (ACL)
 - 🔜 Network Address Translation (NAT)
@@ -49,13 +50,24 @@ This repository showcases the networking labs I have built while learning CCNA u
 ## 💡 Skills Practiced
 
 - IPv4 Addressing
-- Routing
 - Switching
+- VLAN Configuration
+- Inter-VLAN Routing
+- 802.1Q Trunking
 - DHCP
-- VLAN
-- Static Routing
+- Basic Routing
 - Network Troubleshooting
 - Cisco IOS CLI
+
+---
+
+## 📈 Repository Progress
+
+- ✅ 3 Projects Completed
+- 📁 Professional Project Structure
+- 📸 Verification Screenshots Included
+- 📄 Detailed Documentation for Every Lab
+- 🚀 More Labs Coming Soon
 
 ---
 
@@ -66,3 +78,5 @@ This repository showcases the networking labs I have built while learning CCNA u
 🎓 Final Year BE Student (Artificial Intelligence & Machine Learning)
 
 🔐 Aspiring Network Engineer | Cybersecurity Enthusiast
+
+⭐ If you found this repository helpful, feel free to star it!
