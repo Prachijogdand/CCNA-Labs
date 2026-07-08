@@ -2,30 +2,25 @@
 
 ## 📖 Project Overview
 
-This project demonstrates VLAN implementation using Cisco Packet Tracer.
+This project demonstrates the configuration of Virtual Local Area Networks (VLANs) using Cisco Packet Tracer.
 
-The network is divided into two departments:
-
-- HR Department (VLAN 10)
-- Sales Department (VLAN 20)
-
-Each VLAN is configured on a Cisco switch to separate broadcast domains and improve network performance and security.
+Two departments (HR and SALES) are separated into different VLANs to improve network security, reduce broadcast traffic, and logically segment the network.
 
 ---
 
 ## 🎯 Objectives
 
-- Create VLANs
+- Create VLAN 10 (HR)
+- Create VLAN 20 (SALES)
 - Assign switch ports to VLANs
-- Verify VLAN membership
+- Verify VLAN configuration
 - Test communication within VLANs
-- Understand Layer 2 network segmentation
 
 ---
 
 ## 🖥️ Network Topology
 
-*(Topology image will be added after upload.)*
+![Network Topology](screenshots/topology.png)
 
 ---
 
@@ -34,15 +29,17 @@ Each VLAN is configured on a Cisco switch to separate broadcast domains and impr
 - Cisco Packet Tracer
 - Cisco IOS CLI
 - VLAN
-- Layer 2 Switching
+- Switching
+- Ethernet
+- IPv4 Addressing
 
 ---
 
 ## 📦 Devices Used
 
 | Device | Quantity |
-|--------|---------:|
-| Cisco 2960 Switch | 1 |
+|---------|---------:|
+| Switch | 1 |
 | PCs | 4 |
 
 ---
@@ -50,29 +47,34 @@ Each VLAN is configured on a Cisco switch to separate broadcast domains and impr
 ## ⚙️ Configuration
 
 - Created VLAN 10 (HR)
-- Created VLAN 20 (Sales)
-- Assigned access ports
-- Verified VLAN configuration
-- Tested connectivity
+- Created VLAN 20 (SALES)
+- Assigned access ports to VLANs
+- Verified VLAN membership using CLI
 
 ---
 
-## 📸 Verification
+## ✅ Verification
 
-Screenshots included:
+### VLAN Configuration
 
-- show vlan brief
-- Ping Test
-- Switch Configuration
+![Show VLAN Brief](screenshots/show-vlan-brief.png)
+
+### VLAN Commands
+
+![VLAN Configuration](screenshots/vlan-config.png)
+
+### Connectivity Test
+
+![Ping Test](screenshots/ping-test.png)
 
 ---
 
-## 📚 Skills Learned
+## 📚 What I Learned
 
+- VLAN Basics
 - VLAN Creation
-- Port Assignment
-- Layer 2 Switching
-- Cisco IOS CLI
+- Assigning Ports to VLANs
+- VLAN Verification
 - Network Segmentation
 
 ---
@@ -81,6 +83,4 @@ Screenshots included:
 
 **Prachi Jogdand**
 
-Final Year BE Student (Artificial Intelligence & Machine Learning)
-
-Aspiring Network Engineer | Cybersecurity Enthusiast
+Aspiring Network Engineer | Cybersecurity Enthusiast | CCNA Learner
